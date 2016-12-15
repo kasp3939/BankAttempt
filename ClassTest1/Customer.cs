@@ -5,10 +5,13 @@ namespace ClassTest1
 {
     internal class Customer
     {
+      
+
         public string FirstName { get; internal set; }
         public string LastName { get; internal set; }
         public string BankNumber { get; internal set; }
-        
+        public object ID { get; internal set; }
+
         public Customer()
         {
 
@@ -19,22 +22,7 @@ namespace ClassTest1
             FirstName = firstName;
             LastName = lastName;
             BankNumber = bankNumber; 
-        } 
-
-        internal string ChangeName(string name)
-        {
-          
         }
-
-        internal string SplitBankNumber(string bankNumber)
-        {
-        
-        }
-
-        internal bool CheckBankNumberFormat(string bankNumber)
-        {
-          
-        }
-    
+   
     }
 }
